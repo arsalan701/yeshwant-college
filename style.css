@@ -1,0 +1,43 @@
+tabl1 {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* सफेद बॉर्डर और अंदर की जगह */
+th, td {
+  border: 2px solid white;
+  padding: 10px;
+}
+
+/* पहली टेबल की हेडिंग (लाल-नारंगी रंग) */
+th {
+  background-color:  #f48042;
+  color: black;
+  font-weight: bold;
+}
+
+/* दूसरी टेबल की हेडिंग के लिए अलग रंग */
+.orange-header th {
+  background-color: #f48042;
+}
+
+/* पहले कॉलम (01, 02, 03...) का रंग */
+td:first-child {
+  background-color: #f48042;
+  font-weight: bold;
+}
+
+/* बाकी सभी खानों (Cells) का हल्का पीला रंग */
+td {
+  background-color: #fde3a7;
+}
+
+/* Apply लिंक का स्टाइल */
+td a {
+  color: #0000ee;
+  font-weight: bold;
+  text-decoration: underline;
+}
