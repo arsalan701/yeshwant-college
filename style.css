@@ -1,4 +1,4 @@
-tabl1 {
+table {
   width: 100%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
@@ -6,20 +6,20 @@ tabl1 {
   margin-bottom: 25px;
 }
 
-/* सफेद बॉर्डर और अंदर की जगह */
+
 th, td {
   border: 2px solid white;
   padding: 10px;
 }
 
-/* पहली टेबल की हेडिंग (लाल-नारंगी रंग) */
+
 th {
   background-color:  #f48042;
   color: black;
   font-weight: bold;
 }
 
-/* दूसरी टेबल की हेडिंग के लिए अलग रंग */
+
 .orange-header th {
   background-color: #f48042;
 }
